@@ -105,7 +105,7 @@ def main():
         if (op == "1"):
             print("เดินไปซื้อตั๋ว ")
             
-            print(show_movies)
+            print(show_movies(movies))
             movieschoose = int(input("จะเลือกว่าจะดูเรื่องไหนบ้าง"))
             for i in range(movieschoose):
                     if (movieschoose):
